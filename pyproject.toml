@@ -1,0 +1,24 @@
+[project]
+name = "screen-ocr"
+version = "0.1.0"
+description = "ScreenOCR"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "keyboard>=0.13.5",
+    "mss>=10.0.0",
+    "paddleocr>=2.10.0",
+    "paddlepaddle>=3.0.0",
+    "pillow>=11.2.1",
+    "pyperclip>=1.9.0",
+    "pystray>=0.19.5",
+    "pytest>=8.3.5",
+    "requests>=2.32.3",
+    "setuptools>=80.3.1",
+    "win10toast>=0.9",
+]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
