@@ -31,7 +31,7 @@ Just nuke the project directory, and optionally uninstall `tesseract`, and `uv`.
 
 ## Configuration
 
-Configuration can be done with the settings window that you can open via the menu on tray icon. The config consists of two main things:
+Configuration can be done with the settings window that you can open via the setting menu on the tray icon. The config consists of two main things:
 
 * The users (idk why is that even exist)
 * And profiles.
